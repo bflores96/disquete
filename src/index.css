@@ -1,0 +1,131 @@
+:root {
+  --fondo: #dfcae1;
+  --grisoscuro: #242424;
+  --grisclaro: #686868;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--fondo);
+}
+
+
+.disquet {
+  width: 500px;
+  height: 500px;
+  background-color: var(--grisoscuro);
+  border-radius: 25px;
+  box-shadow: 5px 5px 40px;
+}
+
+
+.disquet-top {
+  display: flex;
+  height: 40%;
+  margin-right: 60px;
+  margin-left: 50px;
+  border-radius: 20px;
+  justify-content: center;
+  background-color: var(--grisoscuro);
+}
+
+
+.disquet-down {
+  display: flex;
+  height: 60%;
+}
+
+
+.down-left,
+.down-right {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  width: 10%;
+  padding: 15px;
+}
+
+
+.down-center {
+  width: 80%;
+  display: flex;
+
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+}
+
+
+.container-sticker {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 20px;
+  margin: 10px;
+
+  padding: 40px 20px 20px;
+  flex-grow: 1;
+
+
+  & hr {
+    width: 100%;
+  }
+}
+
+
+.cube {
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+
+.down-right .cube {
+  width: 25px;
+  height: 25px;
+  background-color: white;
+}
+
+
+.down-left .cube {
+  background-color: black;
+  width: 20px;
+  height: 15px;
+}
+
+
+.gap {
+  display: flex;
+  background-color: var(--grisoscuro);
+  width: 80%;
+  justify-content: end;
+  border-bottom-left-radius: 15%;
+  
+  border-left: 2px;
+  margin-bottom: 45px;
+  margin-right: 20px;
+
+  border-left-width: 3px;
+  border-left-style: solid;
+  border-left-color: black;
+}
+
+
+.metal {
+  display: flex;
+  background-color: var(--grisclaro);
+  width: 75%;
+  justify-content: end;
+  border-bottom-left-radius: 10%;
+}
+
+
+.hole {
+  display: flex;
+  background-color: var(--grisoscuro);
+  width: 55px;
+  height: 80%;
+  margin: 15px;
+}
